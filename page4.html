@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">LUXE TASTE</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="page2.html">Cuisine</a>
+    <a href="page3.html">Restaurant</a>
+    <a href="page4.html">Contact</a>
+  </nav>
+</header>
+
+<section class="section contact-page">
+
+  <h1>Contact Us</h1>
+  <p>We’re here to help  reach out anytime.</p>
+
+  <!-- SPLIT LAYOUT -->
+  <div class="contact-layout">
+
+    <!-- LEFT SIDE -->
+    <div class="contact-left">
+
+      <h2>Contact Information</h2>
+
+      <p>📍 Auckland CBD</p>
+      <p>📞 +64 123 456 789</p>
+      <p>✉️ luxe.taste@email.com</p>
+      <p>🕒 5:00 PM – 11:00 PM</p>
+
+      <h3>About Us</h3>
+      <p>
+        Hi, I’m the creator of Luxe Taste. I enjoy designing websites and exploring creative
+         ideas around food, luxury dining, and modern web design. This project was built to show different cuisines, 
+         restaurant experiences, and a clean, elegant style of presentation.My goal with this website is to create a smooth and enjoyable
+          experience for users while keeping everything simple, modern, and visually appealing.
+      </p>
+
+      <h3>Follow Us</h3>
+      <div class="socials">
+        <a href="#" target="_blank">Instagram</a><br>
+        <a href="#" target="_blank">Facebook</a><br>
+        <a href="#" target="_blank">TikTok</a><br>
+        <a href="#" target="_blank">YouTube</a>
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="contact-right">
+
+      <form onsubmit="return validate()" class="contact-form">
+
+        <div class="form-group">
+          <input id="name" type="text" placeholder=" " required>
+          <label>Full Name</label>
+        </div>
+
+        <div class="form-group">
+          <input id="email" type="email" placeholder=" " required>
+          <label>Email Address</label>
+        </div>
+
+        <div class="form-group">
+          <textarea id="msg" placeholder=" " required></textarea>
+          <label>Your Message</label>
+        </div>
+
+        <button type="submit">Send Message</button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
